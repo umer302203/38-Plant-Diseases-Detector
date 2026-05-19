@@ -545,13 +545,9 @@ The Gradio interface will launch locally at `http://localhost:7860`.
 Plant-Disease-Doctor/
 ├── app.py                  # Main Gradio application
 ├── model.py                # Model architecture & weight loading
-├── utils.py                # Helper functions (preprocessing, class names)
 ├── requirements.txt        # Python dependencies
 ├── best_plant_model.keras  # Trained model weights (download separately)
-├── class_names.py          # List of 38 disease class names
-├── assets/
-│   ├── demo.gif            # Demo screenshot/GIF
-│   └── architecture.png    # Architecture diagram
+├── class_names.json          # List of 38 disease class names
 ├── README.md               # This file 📖
 └── .gitignore              # Ignore large model files, venv, etc.
 ```
@@ -561,12 +557,12 @@ Plant-Disease-Doctor/
 ## 📋 Requirements
 
 ```
-tensorflow==2.21.0
-gradio==4.44.0
-Pillow>=10.0.0
-numpy>=1.24.0
-requests>=2.31.0
-scikit-learn>=1.3.0
+tensorflow
+gradio
+Pillow
+numpy
+requests
+scikit-learn
 ```
 
 > Install everything at once with `pip install -r requirements.txt`.
