@@ -18,12 +18,30 @@
 
 ---
 
-## 📸 Demo 
- https://www.linkedin.com/posts/rana-umer-05a9a9359_ai-deeplearning-computervision-ugcPost-7462418140883427328-dkRx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFlQYwYBJENZAtY7jFMfYB1uoPc2fn8Msjo
+## 📸 Demo Screenshot
+
+> **Place your Gradio interface screenshot here!**
+> Replace the placeholder below with a real screenshot or GIF of the app in action.
 
 ```
+┌─────────────────────────────────────────────────────┐
+│                                                     │
+│   🌿 Plant Disease Doctor — Gradio Interface        │
+│                                                     │
+│   [Upload a leaf image here]  →  🩺 Disease: ...   │
+│                                →  🤖 BLIP Caption  │
+│                                →  🔍 Search Links  │
+│                                                     │
+└─────────────────────────────────────────────────────┘
+```
 
+*Tip: Drag and drop a screenshot into your repo and replace the block above with:*
 
+```markdown
+![Demo](assets/demo.gif)
+```
+
+---
 
 ## 📖 Table of Contents
 
@@ -55,7 +73,7 @@ Built with **MobileNetV2** for lightweight, efficient classification and **BLIP 
 | 🎯 Validation Accuracy | **92%** |
 | 🧬 Disease Classes | **38** |
 | 🖼️ Training Images | **~87,000** |
-| ⚡ Model Size (MobileNetV2) | **~43 MB** |
+| ⚡ Model Size (MobileNetV2) | **~14 MB** |
 | 💰 Deployment Cost | **Free (HF Spaces CPU)** |
 
 </div>
@@ -527,9 +545,13 @@ The Gradio interface will launch locally at `http://localhost:7860`.
 Plant-Disease-Doctor/
 ├── app.py                  # Main Gradio application
 ├── model.py                # Model architecture & weight loading
+├── utils.py                # Helper functions (preprocessing, class names)
 ├── requirements.txt        # Python dependencies
 ├── best_plant_model.keras  # Trained model weights (download separately)
-├── class_names.json          # List of 38 disease class names
+├── class_names.py          # List of 38 disease class names
+├── assets/
+│   ├── demo.gif            # Demo screenshot/GIF
+│   └── architecture.png    # Architecture diagram
 ├── README.md               # This file 📖
 └── .gitignore              # Ignore large model files, venv, etc.
 ```
@@ -539,12 +561,12 @@ Plant-Disease-Doctor/
 ## 📋 Requirements
 
 ```
-tensorflow
-gradio
-Pillow
-numpy
-requests
-scikit-learn
+tensorflow==2.21.0
+gradio==4.44.0
+Pillow>=10.0.0
+numpy>=1.24.0
+requests>=2.31.0
+scikit-learn>=1.3.0
 ```
 
 > Install everything at once with `pip install -r requirements.txt`.
