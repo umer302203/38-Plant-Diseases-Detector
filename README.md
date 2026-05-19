@@ -58,7 +58,7 @@ Built with **MobileNetV2** for lightweight, efficient classification and **BLIP 
 | 🎯 Validation Accuracy | **92%** |
 | 🧬 Disease Classes | **38** |
 | 🖼️ Training Images | **~87,000** |
-| ⚡ Model Size (MobileNetV2) | **~14 MB** |
+| ⚡ Model Size (MobileNetV2) | **~45 MB** |
 | 💰 Deployment Cost | **Free (HF Spaces CPU)** |
 
 </div>
