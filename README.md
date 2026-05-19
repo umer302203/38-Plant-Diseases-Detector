@@ -23,7 +23,8 @@
 
 
 ```
-https://www.linkedin.com/posts/rana-umer-05a9a9359_ai-deeplearning-computervision-ugcPost-7462418140883427328-dkRx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFlQYwYBJENZAtY7jFMfYB1uoPc2fn8Msjo
+<img width="1257" height="579" alt="image" src="https://github.com/user-attachments/assets/3c85ad3c-f629-4864-b66b-b89dce899432" />
+
 ```
 
 
