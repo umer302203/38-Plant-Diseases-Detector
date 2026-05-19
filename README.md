@@ -20,22 +20,13 @@
 
 ## 📸 Demo Screenshot
 
-> **Place your Gradio interface screenshot here!**
-> Replace the placeholder below with a real screenshot or GIF of the app in action.
+
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│   🌿 Plant Disease Doctor — Gradio Interface        │
-│                                                     │
-│   [Upload a leaf image here]  →  🩺 Disease: ...   │
-│                                →  🤖 BLIP Caption  │
-│                                →  🔍 Search Links  │
-│                                                     │
-└─────────────────────────────────────────────────────┘
+https://www.linkedin.com/posts/rana-umer-05a9a9359_ai-deeplearning-computervision-ugcPost-7462418140883427328-dkRx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFlQYwYBJENZAtY7jFMfYB1uoPc2fn8Msjo
 ```
 
-*Tip: Drag and drop a screenshot into your repo and replace the block above with:*
+
 
 ```markdown
 ![Demo](assets/demo.gif)
