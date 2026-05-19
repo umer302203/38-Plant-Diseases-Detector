@@ -84,9 +84,9 @@ for name in sorted(display_names.values()):
     disease_links.append(f"<a href='{url}' target='_blank'>{name}</a>")
 disease_links_html = " | ".join(disease_links)
 
-API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base"
-BLIP_TOKEN = os.getenv("BLIP_API_TOKEN")
-HEADERS = {"Authorization": f"Bearer {BLIP_TOKEN}"}
+API_URL = Insert your here
+BLIP_TOKEN = Insert your here
+HEADERS = Insert your here
 
 def predict_disease(image):
     img = image.resize(IMG_SIZE)
