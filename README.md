@@ -18,20 +18,13 @@
 
 ---
 
-## 📸 Demo Screenshot
 
 
 
-```
-<img width="1257" height="579" alt="image" src="https://github.com/user-attachments/assets/3c85ad3c-f629-4864-b66b-b89dce899432" />
-
-```
 
 
 
-```markdown
-![Demo](assets/demo.gif)
-```
+
 
 ---
 
