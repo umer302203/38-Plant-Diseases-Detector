@@ -18,30 +18,13 @@
 
 ---
 
-## 📸 Demo Screenshot
+## 📸 Demo 
+   ![Uploading image.png…]()
 
-> **Place your Gradio interface screenshot here!**
-> Replace the placeholder below with a real screenshot or GIF of the app in action.
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│   🌿 Plant Disease Doctor — Gradio Interface        │
-│                                                     │
-│   [Upload a leaf image here]  →  🩺 Disease: ...   │
-│                                →  🤖 BLIP Caption  │
-│                                →  🔍 Search Links  │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
 
-*Tip: Drag and drop a screenshot into your repo and replace the block above with:*
 
-```markdown
-![Demo](assets/demo.gif)
-```
-
----
 
 ## 📖 Table of Contents
 
